@@ -1,0 +1,41 @@
+#DrawBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.794);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: unset;
+}
+
+#DrawBar .closeBtn{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 15px;
+}
+
+#DrawBar .closeIcon{
+    color: rgb(179, 179, 179);
+    font-size: 40px;
+}
+
+#DrawBar .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#DrawBar .links a{
+    color: rgb(179, 179, 179);
+    margin: 10px;
+    text-decoration: none;
+}
+
+#DrawBar .links a span:hover{
+    color: rgb(98, 98, 98);
+}
