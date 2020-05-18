@@ -9,7 +9,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    scroll-behavior: unset;
+    height: 100vh;
+    width: 100%;
 }
 
 #DrawBar .closeBtn{
@@ -21,19 +22,22 @@
 
 #DrawBar .closeIcon{
     color: rgb(179, 179, 179);
-    font-size: 40px;
+    font-size: 1em;
 }
 
 #DrawBar .links{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #DrawBar .links a{
     color: rgb(179, 179, 179);
     margin: 10px;
     text-decoration: none;
+    font-size: 1em;
 }
 
 #DrawBar .links a span:hover{

@@ -1,0 +1,44 @@
+#Contatos{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 30vh;
+}
+
+#Contatos .contatos-title{
+    color: rgb(22, 22, 22);
+    margin: 20px;
+    font-size: 2.25em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#Contatos .contatos-name{
+    color: rgb(22, 22, 22);
+    font-weight: 700;
+    text-align: justify;
+    font-size: 1em;
+}
+
+#Contatos .contatos-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#Contatos  a{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+#Contatos .contatos-info span{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,5 +1,8 @@
 #Home{
-    background-color: rgb(224, 224, 224);
+    background: url('https://media.giphy.com/media/y3wBjXMffuFjy/source.gif');
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+    background-color: #00000017;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

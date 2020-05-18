@@ -1,34 +1,34 @@
 #QuemSou{
     background-color:  rgb(22, 22, 22);
-    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+#QuemSou .about-title{
+    color: rgb(179, 179, 179);
+    margin: 20px;
+    font-size: 2.25em;
+    font-weight: 700;
+}
+
 .about-picture{
-    margin-top: 10px;
+    margin: 30px;
     border-radius: 10px;
+}
+
+.about-name{
+    color: rgb(179, 179, 179);
+    font-weight: 700;
+    text-align: justify;
+    font-size: 1.5em;
 }
 
 .about-description{
     padding: 30px;
     color: rgb(179, 179, 179);
     text-align: justify;
+    font-size: 1em;
+    line-height: 1.5;
 }
-/* #Home span{
-    padding: 0 20px 0 20px;
-    text-align: center;
-}
-
-#Home .greeting-tilte{
-    font-weight: 700;
-    font-size: 30px;
-}
-
-#Home .greeting-subtilte{
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 10px;
-    font-size: 20px;
-} */

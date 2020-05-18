@@ -2,10 +2,11 @@ import React from 'react';
 import Home from "./Home";
 import QuemSou from "./QuemSou";
 import Profissional from "./Profissional";
-import Projetos from "./Projetos";
+import Habilidades from "./Habilidades";
 import Contatos from "./Contatos";
 
 import NavBar from "../components/Navbar";
+import Footbar from "../components/FootBar";
 
 function Main() {
   return (
@@ -14,8 +15,9 @@ function Main() {
         <Home/>
         <QuemSou/>
         <Profissional/>
-        <Projetos/>
+        <Habilidades/>
         <Contatos/>
+        <Footbar/>
     </div>
   );
 }
