@@ -15,7 +15,7 @@ class Drawbar extends Component{
                     <a href="#Home" onClick={this.props.close}><span>Boas Vindas</span></a>
                     <a href="#QuemSou" onClick={this.props.close}><span>Quem sou</span></a>
                     <a href="#Profissional" onClick={this.props.close}><span>Experiência Profissional</span></a>
-                    <a href="#Projetos" onClick={this.props.close}><span>Projetos</span></a>
+                    <a href="#Habilidades" onClick={this.props.close}><span>Habilidades</span></a>
                     <a href="#Contatos" onClick={this.props.close}><span>Contatos</span></a>
                 </div>
             </div>
